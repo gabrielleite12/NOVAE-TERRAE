@@ -1,0 +1,190 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/slider.css">
+
+    <link rel="shortcut icon" href="static/LOGO.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
+  </head> 
+   <header>
+    <header>
+      <nav class="nav-bar">
+          <div class="logo">
+              <h1>NOVAE TERRAE</h1>
+          </div>
+          <div class="nav-list">
+              <ul>
+                  <li class="nav-item"><a href="/home" class="nav-link">home</a></li>
+                  <li class="nav-item"><a href="/saude" class="nav-link">saude</a></li>
+                  <li class="nav-item"><a href="/sobre" class="nav-link">Chat</a></li>
+              </ul>
+          </div>
+          <div class="login-button">
+              <button><a href="/login">Entrar</a></button>
+          </div>
+
+          <div class="mobile-menu-icon">
+              <button onclick="menuShow1()"><img class="image" src="" alt="static\login.png"></button>
+          </div>
+      </nav>
+      <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="/home" class="nav-link">home</a></li>
+            <li class="nav-item"><a href="/saude" class="nav-link">saude</a></li>
+            <li class="nav-item"><a href="/sobre" class="nav-link">Chat</a></li>
+          </ul>
+
+          <div class="login-button">
+              <button><a href="/login">Entrar</a></button>
+          </div>
+      </div>
+  </header>
+
+  </header>
+ 
+<body>
+  <h2>Stop and think</h2>
+  <div class="container-slider">
+    <button class="arrow-left control" aria-label="Previous image">◀</button>
+    <button class="arrow-right control" aria-label="Next Image">▶</button>
+    <div class="gallery-wrapper">
+      <div class="gallery">
+        <!--       <div class="item current-item cyan"></div>
+        <div class="item deeppink"></div>
+        <div class="item turquoise"></div>
+        <div class="item darkblue"></div>
+        <div class="item purple"></div> -->
+        <a href="#cowspiracy">
+          <img src="static\img-doc\cowspiracy.jpeg" alt="cowspiracy" class="item current-item">
+
+        </a>
+        <a href="#Seaspiracy">
+          <img src="static\img-doc\Seaspiracy.png" alt="Seaspiracy" class="item current-item">
+        </a>
+        <a href="#WhattheHealth">
+          <img src="static\img-doc\WhattheHealth.png" alt="What the Health" class="item current-item">
+        </a>
+        <a href="#TheGameChangers">
+          <img src="static\img-doc\TheGameChangers.png" alt="The Game Changers" class="item current-item">
+        </a>
+        <a href="#Acarneefraca">
+          <img src="static\img-doc\acarneefraca.png" alt="A carne e fraca" class="item current-item">
+        </a>
+        <a href="#deus">
+          <img src="static\img-doc\deus.png" alt="deus" class="item current-item">
+        </a>
+        <a href="#RezareObedecer">
+          <img src="static\img-doc\RezareObedecer.png" alt="Rezar e Obedecer" class="item current-item">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="doc" id= "cowspiracy">
+      <div  class="imgdoc"><img src="static\img-doc\cowspiracy.jpeg" alt="Image" class="img"></div>
+      <div class= "p">
+        <p> Descubra como a agropecuária intensiva está dizimando os recursos naturais do planeta e por que essa crise tem sido ignorada por grandes grupos ambientalistas.</p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc"id= "Seaspiracy">
+      <div  class="imgdoc"><img src="static\img-doc\Seaspiracy.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p> Seaspiracy é um documentário de 2021 sobre o impacto ambiental da pesca, dirigido e estrelado pelo cineasta britânico Ali Tabrizi. O filme examina vários impactos humanos na vida marinha e defende o fim do consumo de peixes.</p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc" id= "WhattheHealth">
+      <div  class="imgdoc"><img src="static\img-doc\WhattheHealth.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p> O cineasta Kip Andersen descobre o segredo para prevenir e até reverter doenças crônicas e investiga por que as principais organizações de saúde do país não querem que as pessoas saibam disso.</p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc" id= "TheGameChangers">
+      <div  class="imgdoc"><img src="static\img-doc\TheGameChangers.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p> Um lutador de UFC conversa com cientistas visionários e grandes atletas na tentativa de descobrir qual é a dieta ideal para um melhor desempenho e saúde.</p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc" id= "Acarneefraca">
+      <div  class="imgdoc"><img src="static\img-doc\acarneefraca.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p>Os impactos que o ato de comer carne representa para a saúde humana, para os animais e para o meio-ambiente. </p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc" id= "deus">
+      <div  class="imgdoc"><img src="static\img-doc\deus.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p>Em The God Delusion (Deus, um delírio), Dawkins traz à baila algumas das tradições religiosas para compará-las com o método científico, supostamente muito mais eficaz e capaz de nos mostrar a realidade. Dawkins inicia o documentário narrando ao fundo, enquanto imagens de um atentado suicida percorrem a tela: "Há neste mundo aspirantes a assassinos dispostos a matar eu e você, porque são motivados pelo que acreditam ser o mais alto dos ideais". E segue dizendo: "Este não é só um problema do islamismo, mas é um mal que atinge igualmente o cristianismo e o judaísmo, o processo de não-pensar, chamado fé". </p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+    <div class="doc" id= "RezareObedecer">
+      <div  class="imgdoc"><img src="static\img-doc\RezareObedecer.png" alt="Image" class="img"></div>
+      <div class= "p">
+        <p>Conheça a trajetória de Warren Jeffs, o controverso líder da Igreja Fundamentalista de Jesus Cristo dos Santos dos Últimos Dias. A vida do religioso é marcada por acusações de crimes sexuais, doutrinação religiosa e escândalos financeiros. </p>
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
+</body>
+
+<script>
+  const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".item");
+const maxItems = items.length;
+
+controls.forEach((control) => {
+  control.addEventListener("click", (e) => {
+    isLeft = e.target.classList.contains("arrow-left");
+
+    if (isLeft) {
+      currentItem -= 1;
+    } else {
+      currentItem += 1;
+    }
+
+    if (currentItem >= maxItems) {
+      currentItem = 0;
+    }
+
+    if (currentItem < 0) {
+      currentItem = maxItems - 1;
+    }
+
+    items.forEach((item) => item.classList.remove("current-item"));
+
+    items[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
+
+    items[currentItem].classList.add("current-item");
+  });
+});
+
+const menuIcon = document.getElementById("menu-icon");
+const menu = document.getElementById("menu");
+
+menuIcon.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});
+
+function menuShow1() {
+  let menuMobile = document.querySelector('.mobile-menu');
+  if (menuMobile.classList.contains('open')) {
+      menuMobile.classList.remove('open');
+      document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
+  } else {
+      menuMobile.classList.add('open');
+      document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
+  }
+}
+</script>
+
+</html>
